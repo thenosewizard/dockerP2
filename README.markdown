@@ -1,17 +1,20 @@
 # Running the docker container 
 
+## Add your username to a docker group
+
 ## Build the container
-1. sudo docker build --tag=review_processing .
+1. docker build --tag=review_processing .
 
 ## Run it and expose it to port 8000
-2. sudo docker run -d -p 8000:8000 review_processing
+1. docker run -d -p 8000:8000 review_processing
 
 ## Delete the containers 
 1. docker ps -a 
 2. docker rm "ID"
 
 ## Delete images
-docker rmi "ID"
+1. docker images ls
+2. docker rmi "ID"
 
 
 
