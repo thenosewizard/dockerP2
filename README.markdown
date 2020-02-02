@@ -1,6 +1,9 @@
 # Running the docker container 
 
 ## Add your username to a docker group
+1. sudo groupadd docker
+2. sudo usermod -aG docker $USER
+3. Log off and log back in
 
 ## Build the container
 1. docker build --tag=review_processing .
