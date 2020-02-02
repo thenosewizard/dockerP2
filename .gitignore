@@ -131,9 +131,7 @@ dmypy.json
 bin/
 lib64
 pyvenv.cfg
-
-
-
-
+.vscode/
+./ServerP2/.vscode
 
 
