@@ -24,7 +24,7 @@ import json
 app = Flask(__name__)
 
 #test api
-@app.route("/")
+@app.route("/test")
 def hello():
 	return "hello world"
 
@@ -104,4 +104,4 @@ def file_search(section, productID):
 
 
 if __name__ == "__main__":
-	app.run(host='0.0.0.0', port=8000)
+	app.run(host='0.0.0.0', port=80)
